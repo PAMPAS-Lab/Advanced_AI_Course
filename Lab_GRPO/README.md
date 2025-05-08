@@ -1,4 +1,4 @@
-# GRPO (Generative Reward Proximal Optimization) 实验项目
+# GRPO实验项目
 
 这个项目包含了使用GRPO技术对Qwen2.5-3B模型进行微调的完整实验代码和数据。
 
