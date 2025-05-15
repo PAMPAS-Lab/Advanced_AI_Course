@@ -1,0 +1,15 @@
+[project]
+name = "reference-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arxiv>=2.2.0",
+    "gradio>=5.25.0",
+    "openai>=1.72.0",
+    "pymupdf>=1.25.5",
+    "python-docx>=1.1.2",
+    "python-dotenv>=1.1.0",
+    "zhipuai>=2.1.5.20250106",
+]
