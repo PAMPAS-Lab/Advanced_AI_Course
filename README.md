@@ -25,6 +25,15 @@ GRPO实验，包含：
 - 实现了基于Transformer架构的诗歌生成系统
 - 提供了多个Jupyter笔记本用于模型缩放研究和Transformer参数配置
 
+### 5. Reference_Agent
+Reference Agent：用于学术论文引用核查与文献下载的智能体。
+- 主要文件结构：
+  - `reference_agent/agent.py`：核心代理逻辑
+  - `reference_agent/utils.py`：工具函数
+  - `reference_agent/app.py`：应用入口（预留Web界面）
+  - `reference_agent/prompts/`：提示词模板
+  - `examples/`：示例目录
+
 ## 使用方法
 
 每个实验目录包含独立的代码和数据，可以按照以下步骤运行：
