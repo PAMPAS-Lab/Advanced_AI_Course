@@ -65,7 +65,7 @@ Lora（Low-Rank Adaptation）是一种高效的大语言模型微调技术，通
 
 ## 注意事项
 
-- 实验需要较大的GPU内存（至少16GB）
+- 实验需要较大的GPU显存（约12-16GB）
 - 完整训练可能需要半小时到一小时，根据GPU性能有所不同
 - 可以通过调整batch_size和gradient_accumulation_steps参数来适应不同的硬件环境
-- 训练过程中会自动保存checkpoint，可用于模型推理和进一步微调
+- 训练过程中会自动保存checkpoint，可用于模型推理
