@@ -41,19 +41,13 @@ Lora（Low-Rank Adaptation）是一种高效的大语言模型微调技术，通
 
 1. **环境配置**：
    ```bash
-   pip install unsloth vllm
-   pip install --upgrade pillow
-   ```
-
-2. **下载模型**：
-   ```bash
    git clone https://github.com/modelscope/ms-swift.git
    cd ms-swift
    pip install -e .
    ```
 
-3. **运行Notebook**：
-   在支持GPU的环境中运行Qwen2.5_3B_GRPO_modelscope.ipynb文件
+2. **运行Notebook**：
+   在支持GPU的环境中运行Qwen1_5_0_5B_Chat_Lora.ipynb文件
 
 ## 实验结果
 
