@@ -33,6 +33,11 @@ Reference Agent：用于学术论文引用核查与文献下载的智能体。
   - `reference_agent/app.py`：应用入口（预留Web界面）
   - `reference_agent/prompts/`：提示词模板
   - `examples/`：示例目录
+ 
+### 6. Lab_Lora
+LoRA微调实验，包含：
+- Qwen1_5_0_5B_Chat_Lora.ipynb ：基于Qwen1.5-0.5B-Chat模型的LoRA微调Jupyter笔记本
+- train-weather.jsonl ：天气工具调用对话数据集
 
 ## 使用方法
 
