@@ -8,7 +8,7 @@ Lora（Low-Rank Adaptation）是一种高效的大语言模型微调技术，通
 
 ## 文件结构
 
-- **25年Lora微调更正（终稿）.ipynb**：完整的实验代码，包括环境配置、模型加载、Lora微调训练和效果测试等
+- **Qwen1_5_0_5B_Chat_Lora.ipynb**：完整的实验代码，包括环境配置、模型加载、Lora微调训练和效果测试等
 - **train-weather.jsonl**：天气查询对话训练数据集，包含1110条训练样本
 - **README.md**：项目说明文档
 
