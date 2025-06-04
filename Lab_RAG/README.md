@@ -14,8 +14,8 @@
 - ├── README.md                        # 项目介绍
 - └── data/
 -     └── AI_Information.pdf           # 实验数据集
--     └── val.jsonl           # 英文问答
--     └── val_cn.jsonl        # 中文问答
+-     └── val.json                     # 英文问答
+-     └── val_cn.json                  # 中文问答
 
 ## 主要功能
 
