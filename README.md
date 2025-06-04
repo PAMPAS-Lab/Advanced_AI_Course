@@ -39,6 +39,13 @@ LoRA微调实验，包含：
 - Qwen1_5_0_5B_Chat_Lora.ipynb ：基于Qwen1.5-0.5B-Chat模型的LoRA微调Jupyter笔记本
 - train-weather.jsonl ：天气工具调用对话数据集
 
+### 7. Lab_RAG
+RAG实验，包含：
+-11_feedback_loop_rag.ipynb ：通过用户反馈持续优化RAG系统（自我学习能力）
+-12_adaptive_rag.ipynb ：根据查询类型动态选择最佳检索策略（智能决策）
+-18_hierarchy_rag.ipynb ：构建多层次索引实现高效检索（上下文保留）
+
+
 ## 使用方法
 
 每个实验目录包含独立的代码和数据，可以按照以下步骤运行：
