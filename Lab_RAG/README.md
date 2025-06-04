@@ -6,14 +6,16 @@
 
 ## 文件结构
 
-Lab_RAG/
-├── 11_feedback_loop_rag.ipynb       # 反馈循环RAG实验
-├── 12_adaptive_rag.ipynb            # 自适应RAG实验
-├── 18_hierarchy_rag.ipynb           # 层次化RAG实验
-├── requirements.txt                 # Python依赖库
-├── README.md                        # 项目介绍
-└── data/
-    └── AI_Information.pdf           # 实验数据集
+- Lab_RAG/
+- ├── 11_feedback_loop_rag.ipynb       # 反馈循环RAG实验
+- ├── 12_adaptive_rag.ipynb            # 自适应RAG实验
+- ├── 18_hierarchy_rag.ipynb           # 层次化RAG实验
+- ├── requirements.txt                 # Python依赖库
+- ├── README.md                        # 项目介绍
+- └── data/
+-     └── AI_Information.pdf           # 实验数据集
+-     └── val.jsonl           # 英文问答
+-     └── val_cn.jsonl        # 中文问答
 
 ## 主要功能
 
