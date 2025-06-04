@@ -41,9 +41,9 @@ LoRA微调实验，包含：
 
 ### 7. Lab_RAG
 RAG实验，包含：
--11_feedback_loop_rag.ipynb ：通过用户反馈持续优化RAG系统（自我学习能力）
--12_adaptive_rag.ipynb ：根据查询类型动态选择最佳检索策略（智能决策）
--18_hierarchy_rag.ipynb ：构建多层次索引实现高效检索（上下文保留）
+- 11_feedback_loop_rag.ipynb ：通过用户反馈持续优化RAG系统（自我学习能力）
+- 12_adaptive_rag.ipynb ：根据查询类型动态选择最佳检索策略（智能决策）
+- 18_hierarchy_rag.ipynb ：构建多层次索引实现高效检索（上下文保留）
 
 
 ## 使用方法
