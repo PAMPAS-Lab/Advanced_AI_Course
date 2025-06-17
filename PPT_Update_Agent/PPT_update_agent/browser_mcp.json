@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "fetch": {
+        "type": "sse",
+        "url": ""
+      },
+      "arxiv-mcp-server": {
+        "type": "sse",
+        "url": ""
+      },
+      "tavily-mcp": {
+            "type": "sse",
+            "url": ""
+          }
+  }
+} 

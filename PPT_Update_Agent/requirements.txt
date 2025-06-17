@@ -1,0 +1,20 @@
+# 基础依赖
+python-pptx
+pywin32
+pandas
+python-dotenv
+
+# 大语言模型与MCP相关
+langchain-core
+langchain-deepseek
+langchain-community
+
+# 工具库
+aiohttp
+numpy
+Pillow
+regex
+
+# 其他工具
+tqdm
+colorama
