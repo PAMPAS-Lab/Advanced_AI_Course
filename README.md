@@ -45,6 +45,16 @@ RAG实验，包含：
 - 12_adaptive_rag.ipynb ：根据查询类型动态选择最佳检索策略（智能决策）
 - 18_hierarchy_rag.ipynb ：构建多层次索引实现高效检索（上下文保留）
 
+### 8. PPT_Update_Agent
+PPT智能更新助手，基于AI的PowerPoint演示文稿智能更新系统：
+- 使用大语言模型自动识别PPT中可能过时的内容
+- 通过MCP框架集成多种搜索工具获取最新信息
+- 生成适合PPT展示的更新建议
+- 主要文件：
+  - `PPT_update_agent/streamlit_app.py`：Streamlit Web界面
+  - `PPT_update_agent/ppt_update_agent_full.py`：核心更新Agent
+  - `PPT_update_agent/ppt_parser.py`：PPT文件解析器
+  - `PPT_update_agent/browser_mcp.json`：MCP服务器配置
 
 ## 使用方法
 
