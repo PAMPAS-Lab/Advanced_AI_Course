@@ -1,6 +1,6 @@
 # PPT智能更新助手 (PPT Update Agent)
 
-一个基于AI的PowerPoint演示文稿智能更新系统，能够自动检测PPT中过时的内容并通过网络搜索获取最新信息进行更新建议。
+一个基于LLM和MCP的PowerPoint演示文稿智能更新系统，能够自动检测PPT中过时的内容并通过网络搜索获取最新信息进行更新建议。
 
 ## 🌟 项目特色
 
@@ -134,27 +134,6 @@ python ppt_update_agent_full.py --ppt "path/to/your/presentation.pptx" --slides 
 - `--config`: MCP配置文件路径 (可选)
 - `--output`: 结果输出文件路径 (可选)
 
-### 方法三：Python API
-```python
-import asyncio
-from PPT_update_agent.ppt_update_agent_full import PPTUpdateAgent
-
-async def main():
-    # 初始化Agent
-    agent = PPTUpdateAgent("browser_mcp.json")
-    await agent.initialize()
-
-    # 处理PPT
-    result = await agent.process_ppt("presentation.pptx", slides=[1, 2])
-
-    # 查看结果
-    print(result)
-
-    # 关闭Agent
-    await agent.close()
-
-asyncio.run(main())
-```
 
 ## 📊 输出格式
 
@@ -270,14 +249,7 @@ logging.basicConfig(level=logging.DEBUG)
 - [LangChain](https://langchain.com/) - 提供LLM应用开发框架
 - [Streamlit](https://streamlit.io/) - 提供快速Web应用开发框架
 - [python-pptx](https://python-pptx.readthedocs.io/) - 提供PowerPoint文件处理能力
+- [mcp-use](https://github.com/mcp-use/mcp-use) - mcp便携搭建
 
-## 📞 联系方式
-
-如有问题或建议，请通过以下方式联系：
-
-- 提交Issue：[GitHub Issues](https://github.com/your-repo/issues)
-- 邮箱：your-email@example.com
-
----
 
 **注意**: 本项目仅用于学习和研究目的。使用时请遵守相关API服务的使用条款和限制。
